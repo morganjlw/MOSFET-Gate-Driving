@@ -1,8 +1,8 @@
-# MOSFET and IGBT Gate Driving Design Analysis
+# MOSFET Gate Driving Design Analysis
 
-MOSFET and IGBT Gate Driving design is analyzed using theoretical calculations and supported by simulations. 
+MOSFET Gate Driving design is analyzed using theoretical calculations and supported by simulations. 
 
-This gate drive design is controlled by an isolated micerocontroller PWM output. Isolation is achieved using optocouplers.
+This gate drive design is controlled by an isolated PWM output. Code for Arduino, Raspberry Pi, and STM MCU implementations is provided. 
 
 ## MOSFET
 
@@ -14,7 +14,7 @@ Quickly turning on and off a MOSFET is achieved by quickly charging and discharg
 
 As an example, we will analyze designing a low-side switch with the Internation Rectifier IRLZ24N using (di/dt) and (dv/dt) protections (RCD networks not considered).   
 
-![](https://github.com/morganjlw/MOSFET-and-IGBT-Gate-Driving/blob/master/IRLZ24Ndatasheetfigures/IRLZ24N.gif)
+![](https://github.com/morganjlw/MOSFET-and-IGBT-Gate-Driving/blob/master/images/mosfet.JPG)
 
 Some relevant IRLZ24N performance figures are included below:
 
@@ -38,4 +38,4 @@ Assuming we overdrive the Gate voltage to ~15V to ensure saturation and we are s
 
 Totem-pole drivers are first considered, though specialized integrated are readily available in the market. A totem-pole configuration consists of NPN and PNP transistors connected in series by their Emitters. 
 
-![](https://github.com/morganjlw/MOSFET-and-IGBT-Gate-Driving/blob/master/totempoledrive.jpg)
+![](https://github.com/morganjlw/MOSFET-and-IGBT-Gate-Driving/blob/master/images/totempoledrive.jpg)
