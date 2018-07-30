@@ -5,6 +5,9 @@ MOSFET Gate Driving design is analyzed using theoretical calculations and suppor
 This gate drive design is controlled by an isolated PWM output. Code for Arduino, Raspberry Pi, and STM MCU implementations is provided.
 
 ## Basic Power MOSFET Topology
+
+The following schematic illustrates an isolated PWM controlled power MOSFET circuit. 
+
 ![](https://github.com/morganjlw/MOSFET-Gate-Driving/blob/master/images/PwrMOSFETSchematic.JPG)
 
 ## MOSFET Gate Driving
