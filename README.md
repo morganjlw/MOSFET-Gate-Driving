@@ -26,15 +26,11 @@ Some relevant IRLZ24N performance figures are included below:
 
 The component datasheet shows that (though vary depending on Drain-Source Voltage and other parameters):
 
-<img src="https://latex.codecogs.com/gif.latex?C_{iss}&space;=&space;480&space;\:\mathrm{pf}&space;\\&space;\indent&space;Q_{g}&space;=&space;15&space;\:\mathrm{nC}&space;\\&space;\indent&space;V_{gs(th)}&space;=&space;10&space;\:\mathrm{V}&space;\\" title="C_{iss} = 480 \:\mathrm{pf} \\ \indent Q_{g} = 15 \:\mathrm{nC} \\ \indent V_{gs(th)} = 10 \:\mathrm{V} \\" />
+<img src="https://latex.codecogs.com/gif.latex?C_{iss}&space;=&space;480&space;\:\mathrm{pf}&space;\\&space;\indent&space;Q_{g}&space;=&space;15&space;\:\mathrm{nC}&space;\\&space;\indent&space;V_{gs(th)}&space;=&space;10&space;\:\mathrm{V}&space;\\" title="C_{iss} = 480 \:\mathrm{pf} \\ \indent Q_{g} = 18 \:\mathrm{nC} \\ \indent V_{gs(th)} = 10 \:\mathrm{V} \\" />
 
 Assuming we require the gate to charge in 20 ns, we can derive the gate drive current requirement:
 
-
-
-Assuming we overdrive the Gate voltage to ~15V to ensure saturation and we are switching at 10kHz:
-
-
+<img src="https://latex.codecogs.com/gif.latex?\indent&space;I_{g}&space;=&space;\frac{18&space;\:\mathrm{nC}}{20\:\mathrm{ns}}&space;=&space;900\:\mathrm{mA}\\" title="\indent I_{g} = \frac{18 \:\mathrm{nC}}{20\:\mathrm{ns}} = 900\:\mathrm{mA}\\" />
 
 Totem-pole drivers are first considered, though specialized integrated are readily available in the market. A totem-pole configuration consists of NPN and PNP transistors connected in series by their Emitters. 
 
