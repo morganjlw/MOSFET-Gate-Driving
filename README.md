@@ -7,7 +7,7 @@ This gate drive design is controlled by an isolated PWM output. Code for Arduino
 ## Basic Power MOSFET Topology
 ![](https://github.com/morganjlw/MOSFET-Gate-Driving/blob/master/images/PwrMOSFETSchematic.JPG)
 
-## MOSFET
+## MOSFET Gate Driving
 
 Quickly turning on and off a MOSFET is achieved by quickly charging and discharging the gate. MOSFET input capacitance is described by the following equivalent circuit and corresponding equations. 
 
