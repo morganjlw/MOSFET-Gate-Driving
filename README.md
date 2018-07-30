@@ -38,7 +38,7 @@ Assuming we require the gate to charge in 20 ns, we can derive the gate drive cu
 
 <img src="https://latex.codecogs.com/gif.latex?\indent&space;I_{g}&space;=&space;\frac{18&space;\:\mathrm{nC}}{20\:\mathrm{ns}}&space;=&space;900\:\mathrm{mA}\\" title="\indent I_{g} = \frac{18 \:\mathrm{nC}}{20\:\mathrm{ns}} = 900\:\mathrm{mA}\\" />
 
-##Totem-Pole Drives
+## Totem-Pole Drives
 
 Totem-Pole drive configurations consists of NPN and PNP transistors connected in series by their Emitters. 
 
