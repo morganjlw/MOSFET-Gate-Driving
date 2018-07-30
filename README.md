@@ -20,8 +20,6 @@ Quickly turning on and off a MOSFET is achieved by quickly charging and discharg
 
 As an example, we will analyze designing a low-side switch with the Internation Rectifier IRLZ24N using (di/dt) and (dv/dt) protections (RCD networks not considered).   
 
-![](https://github.com/morganjlw/MOSFET-and-IGBT-Gate-Driving/blob/master/images/mosfet.JPG)
-
 Some relevant IRLZ24N performance figures are included below:
 
 ![](https://github.com/morganjlw/MOSFET-and-IGBT-Gate-Driving/blob/master/IRLZ24Ndatasheetfigures/figures1and2.JPG)
