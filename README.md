@@ -1,8 +1,8 @@
 # MOSFET Gate Driving Design Analysis
 
-MOSFET Gate Driving design is analyzed using theoretical calculations and supported by simulations. 
+MOSFET Gate Driving design is analyzed using theoretical calculations. 
 
-This gate drive design is controlled by an isolated PWM output. Code for Arduino, Raspberry Pi, and STM MCU implementations is provided.
+This gate drive design is controlled by an isolated PWM output. Code for Arduino and Raspberry Pi implementations are provided.
 
 ## Basic Power MOSFET Topology
 
@@ -43,3 +43,7 @@ Assuming we require the gate to charge in 20 ns, we can derive the gate drive cu
 Totem-Pole drive configurations consists of NPN and PNP transistors connected in series by their Emitters. 
 
 ![](https://github.com/morganjlw/MOSFET-and-IGBT-Gate-Driving/blob/master/images/totempoledrive.jpg)
+
+## Aside - Gate Power Dissipation & Heatsink Calculations
+
+
