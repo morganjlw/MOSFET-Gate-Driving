@@ -30,7 +30,7 @@ Some relevant IRLZ24N performance figures are included below:
 
 ![](https://github.com/morganjlw/MOSFET-and-IGBT-Gate-Driving/blob/master/IRLZ24Ndatasheetfigures/figures5to8.JPG)
 
-The component datasheet shows that (though vary depending on Drain-Source Voltage and other parameters):
+According to the component datasheet (vary depending on Drain-Source Voltage and other parameters):
 
 <img src="https://latex.codecogs.com/gif.latex?C_{iss}&space;=&space;480&space;\:\mathrm{pf}&space;\\&space;\indent&space;Q_{g}&space;=&space;15&space;\:\mathrm{nC}&space;\\&space;\indent&space;V_{gs(th)}&space;=&space;10&space;\:\mathrm{V}&space;\\" title="C_{iss} = 480 \:\mathrm{pf} \\ \indent Q_{g} = 18 \:\mathrm{nC} \\ \indent V_{gs(th)} = 10 \:\mathrm{V} \\" />
 
