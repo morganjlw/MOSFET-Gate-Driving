@@ -13,7 +13,7 @@
   
   *Base frequency for pins 5 and 6 is 62500 Hz.
   
-  Attach decoupling capacitors are outputs to reduce noise and transient artifacts. 
+  Attach decoupling capacitors at outputs to reduce noise and transients. 
   Use oscilloscope to confirm PWM outputs.
 */
 
