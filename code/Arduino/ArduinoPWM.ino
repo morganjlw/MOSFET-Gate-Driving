@@ -30,21 +30,21 @@ const int PWM6 = 6;
 void setup() {
   
   // Set pin 3's PWM frequency to (31250/8 = 3906.25 Hz)
-  setPwmFrequencyDuty(PWM3, 8);
+  setPwmFrequency(PWM3, 8);
   
   // Set pin 10's PWM frequency to (31250/1024 = 30.517 Hz)
-  setPwmFrequencyDuty(PWM10, 1024);
+  setPwmFrequency(PWM10, 1024);
 
   // Set pin 5's PWM frequency to (62500/1 = 62500 Hz)
-  setPwmFrequencyDuty(PWM5, 1);
+  setPwmFrequency(PWM5, 1);
   
   // Set pin 6's PWM frequency to (62500/64 = 976.56 Hz)
-  setPwmFrequencyDuty(PWM6, 64);
+  setPwmFrequency(PWM6, 64);
   
 }
 
 // Available divisors: 1, 8, 64, 256, 1024 
-void setPwmFrequencyDuty(int pin, int divider) {
+void setPwmFrequency(int pin, int divider) {
   byte mode;
   if(pin == 3 ||pin == 5 || pin == 6 || pin == 9 || pin == 10 || pin == 11) {
     switch(divider) {
